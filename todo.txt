@@ -1,0 +1,15 @@
+[X] GPIO Basic
+[X] GPIO PWM
+[] threading
+[] multiprocessing
+[] openCV
+[] i2c
+[] SPI
+[] UART
+[] PID
+[] PCA9685/servo example
+[] OOP
+[] Sockets
+[] module calling example
+[] full joystick
+[] tkinter 
