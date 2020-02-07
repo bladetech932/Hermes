@@ -10,6 +10,6 @@ while True:
 	output = ser.readline() # Receives the same number of bytes as the input is long
         output1 = output.decode()
         print (output1)
-ser.close()
+ser.close() 
 
 
