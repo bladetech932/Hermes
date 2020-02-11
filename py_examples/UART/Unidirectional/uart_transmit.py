@@ -10,7 +10,7 @@ while True:
 	Input1 = (Input + "\n") 
 	ser.write (Input1.encode()) # The .encode method encodes the Input into bytes
 	output = ser.readline() # Receives the same number of bytes as the input is long
-        output1 = output.decode()
-        print (output1)
+    output1 = output.decode()
+    print (output1)
 
 ser.close()
