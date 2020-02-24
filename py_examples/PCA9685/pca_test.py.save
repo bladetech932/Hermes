@@ -1,0 +1,23 @@
+from board import SCL, SDA
+import busio
+from adafruit_pca9685 import PCA9685
+from time import sleep
+
+i2c_bus = busio.I2C(SCL, SDA)
+pca = PCA9685(i2c_bus)
+pca.frequency = 60
+
+
+
+angle = 0
+    for i in range(2048, 10240, 1):
+        #shift = input("direction:")
+	#if shift == 'a':
+	#elif shift == 'd':
+	#    angle -= 16
+	zprint(i)
+	pca.channels[1].duty_cycle = i
+for i in range(10240, 2048, -1):
+
+	print(i)
+	pca.channels[1].duty_cycle = i
